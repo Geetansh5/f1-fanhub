@@ -1,0 +1,65 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Default background color */
+  color: #333; /* Default text color */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar is on top */
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Body padding to ensure navbar doesn't overlap */
+body {
+  padding-top: 60px; /* Adjust based on navbar height */
+}
+
+/* Basic card styling */
+.card {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* src/App.css or src/index.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  padding-top: 60px;  /* Give space for the fixed navbar */
+}

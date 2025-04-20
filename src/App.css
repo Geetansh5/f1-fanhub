@@ -1,0 +1,9 @@
+/* Global Styles */
+.app-container {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}

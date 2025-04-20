@@ -1,0 +1,39 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex; /* Use flexbox to arrange the items in a row */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex; /* Align items in a row */
+  list-style: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-right: 20px; /* Space between links */
+}
+
+.navbar ul li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+  color: #f1c40f;
+}
+

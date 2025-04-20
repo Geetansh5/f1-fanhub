@@ -1,0 +1,107 @@
+/* Reset default browser margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full height for main containers */
+html, body {
+  height: 100%;
+  background-color: black; /* Optional: match theme */
+}
+
+/* Remove margin from root app container if needed */
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+/* src/components/Home.css */
+.home-container {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.2)), url('/Users/geetansh/f1-fanhub/public/motion-blurred-racetrack-start-end-line-night-scene-vertical-poster-format-view-infinity-empty-asphalt-111070325.jpg.webp') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  height: 100vh;
+}
+
+.home-header {
+  margin-bottom: 50px;
+}
+
+.f1-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  font-family: 'Impact', sans-serif;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.home-header p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 2rem;
+  color: #f1c40f;
+}
+
+.card p {
+  font-size: 1rem;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.8);
+}
+
+.quote-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
+.author {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
